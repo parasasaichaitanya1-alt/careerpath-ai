@@ -7361,5 +7361,28 @@ function formatMarkdownToHtml(md) {
 }
 
     </script>
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.18.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.18.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCXzJEVNg3unyAjLqyD9cQawSrbbu1945A",
+    authDomain: "careerpath-ai-38372.firebaseapp.com",
+    projectId: "careerpath-ai-38372",
+    storageBucket: "careerpath-ai-38372.firebasestorage.app",
+    messagingSenderId: "863287561150",
+    appId: "1:863287561150:web:ef59a2d9782c044befc7ef",
+    measurementId: "G-FDR01BS8YH"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 </body>
 </html>
